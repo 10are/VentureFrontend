@@ -6,6 +6,7 @@ import {BrowserRouter} from 'react-router-dom';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
+
 axios.defaults.xsrfHeaderName = 'X-CSRFTOKEN';
 axios.defaults.xsrfCookieName = 'csrftoken';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
